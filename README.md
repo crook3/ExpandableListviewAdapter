@@ -30,8 +30,9 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 >
 效果图
 >
-![Image text](https://github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/expandableListview.PNG)
-![Image text](https://github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/listView.PNG)
+![Image text](https://github.com/crook3/ExpandableListviewAdapter/raw/master/drawable/expandableListview.PNG)
+![Image text](https://github.com/crook3/ExpandableListviewAdapter/raw/master/drawable/listView.PNG)
+
 >
 
 
