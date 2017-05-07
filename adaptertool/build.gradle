@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'//添加
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
@@ -22,4 +22,14 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
+}
+
+
+publish {
+    userOrg = 'crook53'//bintray.com用户名
+    groupId = 'com.tranwon'//jcenter上的路径
+    artifactId = 'expandablelistview'//项目名称
+    publishVersion = '1.0.1'//版本号
+    desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
+    website = 'https://github.com/crook3/ExpandableListviewAdapter'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
