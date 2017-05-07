@@ -1,9 +1,10 @@
 # ExpandableListviewAdapter
 Android 万能的Adapter for ExpandableListView,ListView
-
+>
 引入
+>
 compile 'com.tranwon:expandablelistview:1.0.1'
-
+>
 使用
 简单的数据绑定(ExpandableListView与ListView一致)
 相当方便，在convert方法中完成数据、事件绑定即可。
@@ -29,9 +30,9 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 >
 效果图
 >
-![Image text](https://raw.github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/expandableListview.PNG)
-![Image text](https://raw.github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/listView.PNG)
-
+![Image text](https://github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/expandableListview.PNG)
+![Image text](https://github.com/crook3/ExpandableListviewAdapter/app/src/main/res/drawable/listView.PNG)
+>
 
 
 
