@@ -23,8 +23,18 @@ compile 'com.tranwon:expandablelistview:1.0.1'
                 tv.setText(s);
             }
         };
+        MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
+                getApplicationContext(),mListData,R.layout.listview_item) {
+            @Override
+            public void convert(MyViewHolderExpandbleListView holder, String s) {
+                TextView tv= holder.getView(R.id.tv1);
+                tv.setText(s);
+                ImageView im=holder.getView(R.id.image);
+                im.setImageResource(R.mipmap.ic_launcher);
+            }
+        };
 
-只需要简单的将Adapter继承CommonAdapter，复写convert方法即可。省去了自己编写ViewHolder等大量的重复的代码。
+只需要简单的将Adapter继承BaseAdapter，复写convert方法即可。省去了自己编写ViewHolder等大量的重复的代码。
 
 可以通过holder.getView(id)拿到任何控件。
 >
