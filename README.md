@@ -8,7 +8,7 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 简单的数据绑定(ExpandableListView与ListView一致)
 相当方便，在convert方法中完成数据、事件绑定即可。
 
-MyBaseAdapterExpandbleListview<String> adapter=new MyBaseAdapterExpandbleListview<String>(
+    MyBaseAdapterExpandbleListview<String> adapter=new MyBaseAdapterExpandbleListview<String>(
                 getApplicationContext(),mListParentData,mListChildData,R.layout.item_parent
                 ,R.layout.item_child) {
             @Override
@@ -26,3 +26,9 @@ MyBaseAdapterExpandbleListview<String> adapter=new MyBaseAdapterExpandbleListvie
 只需要简单的将Adapter继承CommonAdapter，复写convert方法即可。省去了自己编写ViewHolder等大量的重复的代码。
 
 可以通过holder.getView(id)拿到任何控件。
+
+
+
+
+
+
