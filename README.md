@@ -44,6 +44,8 @@ compile 'com.tranwon:expandablelistview:1.0.1'
         };
 
 ![image](https://github.com/crook3/ExpandableListviewAdapter/raw/master/app/src/main/res/drawable/listView.PNG)
+</br>
+</br>
 只需要简单的将Adapter继承BaseAdapter，复写convert方法即可。省去了自己编写ViewHolder等大量的重复的代码。
 
 可以通过holder.getView(id)拿到任何控件。
