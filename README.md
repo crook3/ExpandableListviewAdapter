@@ -1,9 +1,12 @@
 # ExpandableListviewAdapter
 Android 万能的Adapter for ExpandableListView,ListView
 >
+</br>
 引入
 >
+</br>
 compile 'com.tranwon:expandablelistview:1.0.1'
+</br>
 >
 使用
 简单的数据绑定(ExpandableListView与ListView一致)
@@ -23,7 +26,13 @@ compile 'com.tranwon:expandablelistview:1.0.1'
                 tv.setText(s);
             }
         };
-        MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
+        </br>
+https://github.com/crook3/ExpandableListviewAdapter/raw/master/app/src/main/res/drawable/expandableListview.PNG
+</br>
+     
+     
+     
+    MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
                 getApplicationContext(),mListData,R.layout.listview_item) {
             @Override
             public void convert(MyViewHolderExpandbleListView holder, String s) {
@@ -37,11 +46,15 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 只需要简单的将Adapter继承BaseAdapter，复写convert方法即可。省去了自己编写ViewHolder等大量的重复的代码。
 
 可以通过holder.getView(id)拿到任何控件。
+</br>
+</br>
+</br>
 >
 效果图
 >
-![Image text](https://github.com/crook3/ExpandableListviewAdapter/raw/master/drawable/expandableListview.PNG)
-![Image text](https://github.com/crook3/ExpandableListviewAdapter/raw/master/drawable/listView.PNG)
+
+https://github.com/crook3/ExpandableListviewAdapter/raw/master/app/src/main/res/drawable/listview.PNG
+
 
 >
 
