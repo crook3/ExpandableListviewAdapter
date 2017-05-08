@@ -1,9 +1,9 @@
 # ExpandableListviewAdapter
 Android 万能的Adapter for ExpandableListView,ListView
-
+</br>
 </br>
 引入
-
+</br>
 </br>
 compile 'com.tranwon:expandablelistview:1.0.1'
 </br>
@@ -53,7 +53,7 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 </br>
 </br>
 
-效果图
+
 
 
 
