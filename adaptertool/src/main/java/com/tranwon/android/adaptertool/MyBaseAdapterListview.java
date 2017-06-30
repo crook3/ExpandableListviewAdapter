@@ -39,9 +39,9 @@ public abstract class MyBaseAdapterListview<T>  extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         MyViewHolderExpandbleListView holder = MyViewHolderExpandbleListView.get(
                 mContext, view, viewGroup, mLayoutId, i);
-        convert(holder, getItem(i));
+        convert(holder, getItem(i),i);
         return holder.getConvertView();
     }
-    public abstract void convert(MyViewHolderExpandbleListView holder, T t);
+    public abstract void convert(MyViewHolderExpandbleListView holder, T t,int position);
 
 }
