@@ -33,7 +33,7 @@ public class ListViewActivity extends AppCompatActivity{
         MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
                 getApplicationContext(),mListData,R.layout.listview_item) {
             @Override
-            public void convert(MyViewHolderExpandbleListView holder, String s) {
+            public void convert(MyViewHolderExpandbleListView holder, String s,int position) {
                 TextView tv= holder.getView(R.id.tv1);
                 tv.setText(s);
                 ImageView im=holder.getView(R.id.image);
