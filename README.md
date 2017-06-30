@@ -1,5 +1,5 @@
 # ExpandableListviewAdapter
-Android 万能的Adapter for ExpandableListView,ListView
+Android 万能的Adapter for ExpandableListView,ListView,Gridview等
 </br>
 </br>
 引入
@@ -8,6 +8,7 @@ Android 万能的Adapter for ExpandableListView,ListView
 compile 'com.tranwon:expandablelistview:1.0.1'
 </br>
 </br>
+对应博客地址为：http://blog.csdn.net/zhangxiangliang2/article/details/71698199
 使用
 简单的数据绑定(ExpandableListView与ListView一致)
 相当方便，在convert方法中完成数据、事件绑定即可。
