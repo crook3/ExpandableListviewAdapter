@@ -1,3 +1,4 @@
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 # ExpandableListviewAdapter
 Android 万能的Adapter for ExpandableListView,ListView,Gridview等
 </br>
