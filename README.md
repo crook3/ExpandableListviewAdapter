@@ -5,7 +5,7 @@ Android 万能的Adapter for ExpandableListView,ListView,Gridview等
 引入
 </br>
 </br>
-compile 'com.tranwon:expandablelistview:1.0.1'
+compile 'com.tranwon:expandablelistview:1.0.2'
 </br>
 </br>
 对应博客地址为：http://blog.csdn.net/zhangxiangliang2/article/details/71698199
