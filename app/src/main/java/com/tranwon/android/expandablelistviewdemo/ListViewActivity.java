@@ -42,7 +42,6 @@ public class ListViewActivity extends AppCompatActivity{
         };
         listView.setAdapter(adapter);
     }
-
     private void initData() {
         for (int i=0;i<100;i++)
             mListData.add("我是第--"+i+"--项");
