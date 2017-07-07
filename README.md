@@ -9,6 +9,7 @@ compile 'com.tranwon:expandablelistview:1.0.1'
 </br>
 </br>
 对应博客地址为：http://blog.csdn.net/zhangxiangliang2/article/details/71698199
+
 使用
 简单的数据绑定(ExpandableListView与ListView一致)
 相当方便，在convert方法中完成数据、事件绑定即可。
@@ -33,16 +34,17 @@ compile 'com.tranwon:expandablelistview:1.0.1'
      
      
      
-    MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
+       MyBaseAdapterListview<String> adapter=new MyBaseAdapterListview<String>(
                 getApplicationContext(),mListData,R.layout.listview_item) {
             @Override
-            public void convert(MyViewHolderExpandbleListView holder, String s) {
+            public void convert(MyViewHolderExpandbleListView holder, String s,int position) {
                 TextView tv= holder.getView(R.id.tv1);
                 tv.setText(s);
                 ImageView im=holder.getView(R.id.image);
                 im.setImageResource(R.mipmap.ic_launcher);
             }
         };
+     
 
 ![image](https://github.com/crook3/ExpandableListviewAdapter/raw/master/app/src/main/res/drawable/listView.PNG)
 </br>
